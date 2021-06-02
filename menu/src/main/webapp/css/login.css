@@ -1,0 +1,78 @@
+#login-div{
+	width:600px;
+	height:300px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:auto;
+	border:1px solid red;
+	
+	
+	
+}
+#login-font{
+	background-color:#5555ff;
+	width:598px;
+	height:150px;
+	border:1px solid black;
+}
+#login-font>h1{
+	
+	width:80px;
+	display:block;
+	margin:50px auto;
+}
+#input-div{
+	border:1px solid gray;
+	width:598px;
+	height:146px;
+} 
+
+#pw-div,#user-div{
+	margin:10px auto;
+	
+	width:300px;
+	height:40px;
+}
+#user-lable{
+	display:inline;
+}
+#input-user{
+	
+}
+#password-lable{
+	display:inline;
+	margin-left:16px;
+} 
+#input-pw{
+	
+}
+
+#btn-login{
+	
+} 
+#btn-reget{
+	margin-left:100px;
+}
+#btn-div{
+	margin:0 auto;
+	width:212px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
