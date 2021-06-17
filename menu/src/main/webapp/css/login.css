@@ -1,5 +1,9 @@
+body{
+	background-image:url("../image/main_BG.jpg");
+	background-reapt:reapt-n;
+}
 #login-div{
-	width:600px;
+	width:599px;
 	height:300px;
 	position:fixed;
 	left:0px;
@@ -7,7 +11,10 @@
 	top:0px;
 	bottom:0px;
 	margin:auto;
-	border:1px solid red;
+	
+	background-image:url(../image/form.jpg);
+	background-size:cover;
+	background-reapt:reapt-n;
 	
 	
 	
@@ -29,25 +36,30 @@
 	width:598px;
 	height:146px;
 } 
-
-#pw-div,#user-div{
-	margin:10px auto;
-	
-	width:300px;
-	height:40px;
+#pw-div{
+	margin-top:25px;
+	margin-left:20px;
+	width:400px;
+	height:35px;
+}
+#user-div{
+	margin-top:115px;
+	margin-left:20px;
+	width:400px;
+	height:35px;
 }
 #user-lable{
 	display:inline;
-}
-#input-user{
 	
 }
 #password-lable{
 	display:inline;
 	margin-left:16px;
 } 
-#input-pw{
-	
+#input-pw,#input-user{
+	margin-left:30px;
+	width:300px;
+	background-color:rgb(245,245,245);
 }
 
 #btn-login{
@@ -57,11 +69,27 @@
 	margin-left:100px;
 }
 #btn-div{
-	margin:0 auto;
-	width:212px;
-	
+	margin-left:130px;
+	margin-top:30px;
+	width:250px;
+	height:35px;
 }
-
+#img-log{
+	float:left;
+	display:block;
+	width:95px;
+	height:25px;
+	background-image:url("../image/login_btn.jpg");
+	repeat:repeat-n;
+}
+#img-sigunp{
+	display:block;
+	float:right;
+	width:95px;
+	height:25px;
+	background-image:url("../image/signup_btn.jpg");
+	repeat:repeat-n;
+}
 
 
 
